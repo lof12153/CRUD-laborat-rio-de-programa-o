@@ -1,0 +1,18 @@
+1. Tema Escolhido
+O tema escolhido para este projeto foi a gestão de tarefas pessoais. O objetivo é oferecer uma ferramenta simples e eficiente para que o usuário possa organizar suas atividades diárias através do terminal.
+
+
+2. O que o sistema faz
+O sistema funciona como um organizador interativo onde o usuário pode:
+Cadastrar novas tarefas com título e descrição.
+Visualizar a lista completa de tarefas cadastradas, incluindo o status de conclusão.
+Atualizar informações de tarefas existentes (editar título, descrição ou status).
+Remover tarefas da lista permanentemente.
+Persistir os dados, garantindo que as informações sejam salvas (com a função salvar_tarefa).
+
+3. Como o CRUD foi aplicado
+O conceito de CRUD (Create, Read, Update, Delete) foi implementado através das seguintes funções no código:
+Create (Criar): Realizado pela função adicionar_tarefa(), que coleta os dados, gera um ID único e armazena a nova tarefa no dicionário/lista.
+Read (Ler): Implementado na função listar_tarefas(), que percorre a estrutura de dados e exibe as informações formatadas para o usuário no console.
+Update (Atualizar): Executado pela função editar_tarefa(), que busca uma tarefa específica pelo ID e permite a alteração seletiva de seus campos.
+Delete (Excluir): Gerenciado pela função excluir_tarefa(), que localiza o item pelo ID e o remove da estrutura de dados utilizando o comando del.
